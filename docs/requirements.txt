@@ -1,0 +1,18 @@
+---Requirements---
+
+These are the environment's libraries and versions used in the project:
+
+- pandas==1.4.4
+- matplotlib==3.5.3
+- seaborn==0.12.0
+- geopandas==0.12.2
+- joblib==1.2.0
+- nltk==3.8.1
+- textblob==0.17.1
+- wordcloud==1.8.2.2
+- folium==0.14.0
+- geopy==2.3.0
+- sklearn==0.0.post1
+- networkx==2.8.8
+- tqdm==4.64.1
+- shap==0.41.0

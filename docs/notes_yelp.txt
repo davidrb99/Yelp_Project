@@ -1,0 +1,8 @@
+save 'scipy.sparse._csr.csr_matrix' file:
+	save_npz('matrix.npz', matrix)
+
+load 'scipy.sparse._csr.csr_matrix' file:
+	matrix = load_npz('matrix.npz')
+
+library to import:
+	from scipy.sparse import csr_matrix, save_npz
